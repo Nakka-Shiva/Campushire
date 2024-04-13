@@ -1,38 +1,30 @@
 package com.spec;
 
-public class ReverseString {
+public class FactorialCalculator {
 
-static String reverseString(String w) {
+public static int calculateFactorial(int n) {
 
-int i;
+int i,res=1;
 
-char ch;
+for(i=1;i<n+1;i++) {
 
-String rw="";
-
-for(i=0;i<w.length();i++) {
-
-ch=w.charAt(i);
-
-rw=ch+rw;
+res=res*i;
 
 }
 
-return rw;
+return res;
 
 }
 
 public static void main(String[] args) {
 
-System.out.println(reverseString("hello"));
+int[] testCases={5,0,1,10,3};
 
-System.out.println(reverseString("Java"));
+for(int n:testCases) {
 
-System.out.println(reverseString("world"));
+System.out.println("Factorial of "+n+" is: "+calculateFactorial(n));
 
-System.out.println(reverseString("12345"));
-
-System.out.println(reverseString(""));
+}
 
 }
 
