@@ -1,0 +1,28 @@
+/** style.css **/
+
+.flex-container {
+    display : flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.item {
+    padding : 20px;
+    margin : 20px;
+    border: solid ;
+    text-align: start;
+    width : 10em;
+    background-color: blanchedalmond;
+}
+
+p.center {
+    text-align: center;
+}
+
+h1.center {
+    text-align : center;
+}
+
+.boldFont {
+    font-weight: bold;
+}
