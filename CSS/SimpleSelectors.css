@@ -1,0 +1,23 @@
+.flex-container {
+    display : flex;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.item {
+    padding : 20px;
+    margin : 20px;
+    border: solid ;
+    background-color:blanchedalmond;
+    
+}
+
+#item {
+    background-color: coral;
+    
+}
+
+.item3 {
+    background-color: cadetblue;
+
+}
